@@ -1,0 +1,2 @@
+# hamstore
+ADDCREDIT
