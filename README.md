@@ -6,10 +6,13 @@
 Gunakan script di bawah untuk menginstall thema dengan sekali copy paste saja.
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/miftah12345678/hamstore/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/Foxstoree/pterodactyl-auto-installer/main/install.sh)
 ```
 
-_Note: jika mengalami kesalahan atau kegagalan, unistall thema terlebih dahulu kemudia intsall kembali themanya._
+## Features
 
-masih bingung dengan cara pakainya ? [YouTube video](https://www.youtube.com/@hamstore23
-) berikut adalah tutorial instalasi.
+- Automatic installation of the Pterodactyl Panel (dependencies, database, cronjob, nginx).
+- Automatic installation of the Pterodactyl Wings (Docker, systemd).
+- Panel: (optional) automatic configuration of Let's Encrypt.
+- Panel: (optional) automatic configuration of firewall.
+- Uninstallation support for both panel and wings.
