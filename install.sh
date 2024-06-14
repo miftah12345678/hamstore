@@ -111,7 +111,7 @@ install_theme() {
         break
         ;;
       3)
-        THEME_URL="https://github.com/aiprojectchiwa/pterodactylthemeautoinstaller/raw/main/custom_install_enigma.zip"
+        THEME_URL="https://github.com/miftah12345678/hamstore/raw/main/custom_install_enigma.zip"
         break
         ;; 
       x)
