@@ -6,7 +6,7 @@
 Gunakan script di bawah untuk menginstall thema dengan sekali copy paste saja.
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/Foxstoree/pterodactyl-auto-installer/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/miftah12345678/hamstore/main/install.sh)
 ```
 
 ## Features
