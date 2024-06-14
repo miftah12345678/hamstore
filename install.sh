@@ -71,13 +71,14 @@ check_token() {
   echo -e "${BLUE}[+]               LICENSY HAMSTORE OFFC             [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  fox=$(echo -e "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x67\x65\x74\x70\x61\x6e\x74\x72\x79\x2e\x63\x6c\x6f\x75\x64\x2f\x61\x70\x69\x76\x31\x2f\x70\x61\x6e\x74\x72\x79\x2f\x31\x31\x64\x34\x65\x33\x34\x64\x2d\x30\x39\x33\x34\x2d\x34\x39\x35\x38\x2d\x39\x64\x30\x36\x2d\x35\x32\x34\x31\x39\x65\x66\x38\x30\x61\x65\x61\x2f\x62\x61\x73\x6b\x65\x74\x2f\x41\x63\x63\x65\x73\x54\x68\x65\x6d\x61")
-  foxx=$(curl -s "$fox" | jq -r .token)
+  ham=$(echo -e "EpzA08yzQfg1j/C9yVzGl1st4OMoNjG3ePumLkIvV+3DVqDo7wSho/4Z2nRTAuO9FsrPS5XhbAw8
+2w9FXIdiwLn1IOGH/cHWA8azbc75EkllWJnqZdmB9mxl/6NmYMAd")
+  hams=$(curl -s "$ham" | jq -r .token)
 
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" != "$foxx" ]; then
+  if [ "$USER_TOKEN" != "$hams" ]; then
     echo -e "${RED}TOKEN SALAH, KELUAR DARI SCRIPT.${NC}"
     exit 1
   else
