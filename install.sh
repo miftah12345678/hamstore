@@ -17,7 +17,7 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © HAMSTORE OFFC                [+]${NC}"
+  echo -e "${BLUE}[+]                  © FOXSTORE OFFC                [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e ""
@@ -25,12 +25,11 @@ display_welcome() {
   echo -e "dilarang keras untuk memperjual belikan."
   echo -e ""
   echo -e "𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 :"
-  echo -e "+62 821-1769-6469"
+  echo -e "0853-7227-7748"
   echo -e "𝗬𝗢𝗨𝗧𝗨𝗕𝗘 :"
-  echo -e "@hamstore23"
+  echo -e "@foxstore_id"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
   echo -e "@Chiwa"
-  echo -e "@foxstore_id"
   sleep 4
   clear
 }
@@ -68,7 +67,7 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY HAMSTORE OFFC             [+]${NC}"
+  echo -e "${BLUE}[+]               LICENSY FOXSTORE OFFC             [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   fox=$(echo -e "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x67\x65\x74\x70\x61\x6e\x74\x72\x79\x2e\x63\x6c\x6f\x75\x64\x2f\x61\x70\x69\x76\x31\x2f\x70\x61\x6e\x74\x72\x79\x2f\x31\x31\x64\x34\x65\x33\x34\x64\x2d\x30\x39\x33\x34\x2d\x34\x39\x35\x38\x2d\x39\x64\x30\x36\x2d\x35\x32\x34\x31\x39\x65\x66\x38\x30\x61\x65\x61\x2f\x62\x61\x73\x6b\x65\x74\x2f\x41\x63\x63\x65\x73\x54\x68\x65\x6d\x61")
@@ -192,11 +191,11 @@ elif [ "$SELECT_THEME" -eq 3 ]; then
   echo -e "                                                                   "
 
     # Menanyakan informasi kepada pengguna untuk tema Enigma
-    echo -e "${YELLOW}Masukkan link untuk 'LINK_BC_BOT': ${NC}"
+    echo -e "${YELLOW}Masukkan link wa (https://wa.me...) : ${NC}"
     read LINK_WA
-    echo -e "${YELLOW}Masukkan nama untuk 'NAMA_OWNER_PANEL': ${NC}"
+    echo -e "${YELLOW}Masukkan link group (https://.....) : ${NC}"
     read LINK_GROUP
-    echo -e "${YELLOW}Masukkan link untuk 'LINK_GC_INFO': ${NC}"
+    echo -e "${YELLOW}Masukkan link channel (https://...) : ${NC}"
     read LINK_CHNL
 
     # Mengganti placeholder dengan nilai dari pengguna
