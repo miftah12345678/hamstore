@@ -71,8 +71,7 @@ check_token() {
   echo -e "${BLUE}[+]               LICENSY HAMSTORE OFFC             [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  ham=$(echo -e "EpzA08yzQfg1j/C9yVzGl1st4OMoNjG3ePumLkIvV+3DVqDo7wSho/4Z2nRTAuO9FsrPS5XhbAw8
-2w9FXIdiwLn1IOGH/cHWA8azbc75EkllWJnqZdmB9mxl/6NmYMAd")
+  ham=$(echo -e "https://getpantry.cloud/apiv1/pantry/7ec5db70-3360-49c7-9055-a414cf9d70f9/basket/newBasket80")
   hams=$(curl -s "$ham" | jq -r .token)
 
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
